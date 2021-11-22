@@ -2,6 +2,8 @@
 
 Frontend template using SvelteKit, TailwindCSS, DaisyUI
 
+## Step to recreate
+
 ```
 npm init svelte@next <appnamehere>
 npx svelte-add@latest tailwindcss
