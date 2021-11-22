@@ -12,6 +12,10 @@
 	let mobileMenuOpen = false;
 </script>
 
+<svelte:head>
+	<title>Site Name Here</title>
+</svelte:head>
+
 <aside
 	class:translate-x-full={mobileMenuOpen}
 	class="absolute z-10 w-full h-full bg-neutral-focus transform transition duration-500 ease-in-out -left-full"
