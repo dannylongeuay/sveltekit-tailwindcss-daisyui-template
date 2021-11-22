@@ -47,9 +47,9 @@
 			</svg>
 		</button>
 	</div>
-	<div class="flex-1">
-		<div class="px-2 mx-2 flex-0">
-			<a class="text-lg font-bold text-primary" href="/"> Logo </a>
+	<div class="flex-1 items-center">
+		<div class="px-2 mx-2 flex-0 pb-2">
+			<a class="text-4xl font-bold text-primary" href="/"> Logo </a>
 		</div>
 		<div class="flex-1 hidden px-2 mx-2 lg:block">
 			<div class="items-stretch">
