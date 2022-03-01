@@ -24,12 +24,16 @@ format-check: ## Run formatting check
 lint: ## Run linter
 	npm run lint
 
+.PHONY: test
+test: ## Run test suite
+	npm run test
+
 .PHONY: check
 check: ## Run Svelte check
 	npm run check
 
 .PHONY: cq
-cq: deps format check lint ## Run code quality tools
+cq: deps format check lint test ## Run code quality tools
 
 .PHONY: cq-check
-cq-check: deps format-check check lint ## Run code quality checks
+cq-check: deps format-check check lint test ## Run code quality checks
