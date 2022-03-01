@@ -6,8 +6,6 @@
   import { onMount } from 'svelte'
   import { themeChange } from 'theme-change'
 
-  let foobar: string[] = []
-
   onMount(() => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     themeChange(false)

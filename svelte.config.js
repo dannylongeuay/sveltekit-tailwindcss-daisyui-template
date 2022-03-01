@@ -16,12 +16,12 @@ const config = {
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte',
     vite: {
-			server: {
-				hmr: {
-					port: process.env['VITE_SERVER_HMR_PORT'] || 3000,
-				}
-			}
-		}
+      server: {
+        hmr: {
+          port: process.env['VITE_SERVER_HMR_PORT'] || 3000
+        }
+      }
+    }
   }
 }
 
